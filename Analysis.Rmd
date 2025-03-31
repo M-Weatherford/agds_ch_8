@@ -1,0 +1,22 @@
+---
+title: "Germination"
+author: "Tino Schneidewind"
+date: "2025-03-31"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Plots about Michaels data
+
+This is only very brief because this exercise is about github.
+
+```{r cars}
+
+data <- read.csv("./Data/Germination.csv")
+
+plot(data$Germ_Tot)
+```
+
